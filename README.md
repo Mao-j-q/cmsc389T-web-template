@@ -1,15 +1,5 @@
 # cmsc388T-web-template
 
-## Color Family
-Light yellow: #FAF8D4
+## Changes
 
-Almond: #EBDCCB
-
-Dun: #C3BAAA
-
-Taupe Gray: #91818A
-
-Rose quartz: #B2A3B5
-
-## CSS
-.img -> where you can adjust image size
+I'm a big fan of darker themes for webpages. The original theme was too bright and vibrant for my liking so I decided to change up the color theme. The page now uses darker themes for the backgrounds and a shade of white for the text.
