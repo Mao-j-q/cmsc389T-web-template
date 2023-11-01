@@ -13,7 +13,7 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          port: ${{secrets.Port}}
+          port: ${{secrets.PORT}}
           script: |
             cd cmsc389T-web-template
             git pull

@@ -12,8 +12,6 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          port: ${{secrets.Port}}
+          port: ${{secrets.PORT}}
           script: |
-            ls
-            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
             git clone git@github.com:Mao-j-q/cmsc389T-web-template.git
