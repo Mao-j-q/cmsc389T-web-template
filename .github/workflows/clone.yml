@@ -15,6 +15,5 @@ jobs:
           port: ${{secrets.Port}}
           script: |
             ls
-            cd ../pub/
             ssh-keyscan -H github.com >> ~/.ssh/known_hosts
             git clone git@github.com:Mao-j-q/cmsc389T-web-template.git

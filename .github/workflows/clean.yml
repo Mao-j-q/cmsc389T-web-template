@@ -14,6 +14,5 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: ${{secrets.Port}}
           script: |
-            cd ../pub/
             unalias rm
             rm -rf cmsc389T-web-template
