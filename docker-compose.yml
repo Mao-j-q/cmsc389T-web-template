@@ -6,10 +6,8 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    ports:
-      -"8080:80"
     image: node-web-app
-    container_name: nodejs
+    container_name: node-web-app
     restart: unless-stopped
     networks:
       - app-network
@@ -36,7 +34,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /Users/maojq/Downloads/cmsc389t/p3/cmsc389t-web-template/
+      device: /Users/maojq/cmsc389t/p3/cmsc389t-web-template/
       o: bind
 
 networks:
